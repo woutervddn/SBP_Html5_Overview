@@ -282,7 +282,7 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="#" >
+                    <a target="_blank" href="https://www.facebook.com/pages/CHA-PE/433061946781234" >
                         <div class="caption">
                             <div class="text-align">
                                 <p class="sbp-info">Als bedrijf bieden wij u gebruiksvriendelijkheid aan. Ons <b>krijtpotlood</b> geeft dit treffend weer: 2 producten in 1 voor een lagere prijs en een groter gebruiksgemak.</p>
@@ -439,7 +439,7 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
                     </a>
                 </li>
                 <li>   
-                    <a target="_blank" href="#" >
+                    <a target="_blank" href="http://creastone.jimbo.com" >
                         <div class="caption">
                             <div class="text-align">
                                 <p class="sbp-info">CreaStone houdt zich bezig met het vervaardigen van <b>natuurstenen onderleggers</b> in een handgemaakte eiken houder.</p>

@@ -455,7 +455,7 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
         </div>
         
         <footer style="text-align: center; background: #fff; box-shadow:inset 0px 3px 5px rgba(0,0,0,0.5); padding: 50px 20px 20px 20px; margin-top: 60px;">
-            Alle logo's op deze pagina zijn eigendom van de respectievelijke SBP teams en mogen enkel overgenomen worden met schriftelijke toestemming van het desbetreffende team.<br />Vlajo, FI², XIOS en KHLim zijn niet verantwoorlijk voor de inhoud van de SBP websites. <br />De sourcecode van deze overzichtspagina's is beschikbaar op <a target="_blank" href="https://github.com/woutervddn/SBP_Html5_Overview">github</a>.
+            Alle logo's op deze pagina zijn eigendom van de respectievelijke SBP teams en mogen enkel overgenomen worden met schriftelijke toestemming van het desbetreffende team.<br />Vlajo, FI², XIOS en KHLim zijn niet verantwoorlijk voor de inhoud van de SBP websites. <br />De sourcecode van deze overzichtspagina's is beschikbaar op <a target="_blank" href="#">github</a>.
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

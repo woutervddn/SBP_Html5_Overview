@@ -18,8 +18,8 @@
         <style>
         
         @font-face {
-    font-family: "Nougat";
-    src: url(Nougat-ExtraBlack.ttf);
+    font-family: "Serifa"; font-weight: bold;
+    src: url("Serifa.ttf");
 }
         
         header{
@@ -27,7 +27,7 @@
             padding:0;
             margin: 0;
             
-            background: #fff;
+            background: #9B8F57;
             box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
         }
         
@@ -69,25 +69,27 @@
             text-align: center;
             font-size: 60px;
             padding: 10px 0 20px 0;
-            color: #40BEC4;
-font-family: 'Nougat';
+            color: #fff;
+font-family: "Serifa";
 
             margin: 0;
-            text-shadow: -1px -1px 0px #2D4A80, -2px -2px 0px #2D4A80, 1px 1px 0px #ccc;
-            font-weight: 400;
+            text-shadow: 0px -1px 0px #333, 0px -2px 0px #333, 1px -3px 0px #333, 1px -4px 0px #333, 2px -5px 0px #333,
+                         2px -6px 0px #333, 3px -7px 0px #333, 3px -8px 0px #333, 4px -9px 0px #333, 4px -10px 0px #333;
+            font-weight: bold;
             }
         
             body{
                 background: #ddd url('img/bg.png');
                 margin: 0;
                 padding: 0;
+                font-size: 14px;
             }
             
             .container{
                 overflow-y: auto;
                 margin: 0 auto;
                 padding: 10px;
-                margin-top: 75px;
+                margin-top: 20px;
             }
             
             li{
@@ -96,8 +98,8 @@ font-family: 'Nougat';
                padding: 15px;
                border: 1px solid #ccc;
                margin: 5px;
-               width: 250px;
-               height: 250px;
+               width: 200px;
+               height: 200px;
                background: #fff;
                
                
@@ -112,8 +114,8 @@ font-family: 'Nougat';
             }
             
             .image-aligner{
-                width: 250px;
-                height: 250px;
+                width: 200px;
+                height: 200px;
                 display:table-cell;
                 vertical-align:middle;
                 background: #fff;
@@ -122,9 +124,9 @@ font-family: 'Nougat';
             
             .text-aligner{
                 position: relative;
-                top: -265px;
-                width: 250px;
-                height: 250px;
+                top: -215px;
+                width: 200px;
+                height: 200px;
                 background: #000;
                 visibility: hidden;
             }
@@ -142,8 +144,8 @@ font-family: 'Nougat';
                border-radius: 3px;
                
                color: #fff;
-               height: 280px;
-               width: 280px;
+               height: 230px;
+               width: 230px;
                
             }
             
@@ -153,14 +155,14 @@ font-family: 'Nougat';
             }
                 .text-align{
                     #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;
-                    height: 280px;
-                    width: 280px;
+                    height: 230px;
+                    width: 230px;
                 }
                 
                 p.sbp-info{
                     #position: relative; #top: -50%;
                     text-align: center;
-                    width: 260px;
+                    width: 210px;
                     padding: 10px;
                 }
                 
@@ -183,10 +185,9 @@ font-family: 'Nougat';
                 }
                 
                 .partners{
-                    margin-left: auto; margin-right: auto;
-                    margin-bottom: 20px;
-                    margin-top: -30px;
-                    width: 200px;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
                 }
                 
                 .partners img{
@@ -200,9 +201,9 @@ font-family: 'Nougat';
         <![endif]-->
         
         <header>
-            <h1>FI² Small Business Projects</h1>
+            <h1>3 ABA FI² SBP</h1>
             <div class="partners">
-                <a href="http://www.fi2.be" target="_blank" style="background: none;"><img src="img/fi2.png" style="float: left;"/></a>
+
                 <a href="http://vlajo.org/" target="_blank" style="background: none;"><img src="img/sbp.png" /></a>
             </div>
         </header>
@@ -428,7 +429,7 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
                     <a target="_blank" href="http://tbi-group.be" >
                         <div class="caption">
                             <div class="text-align">
-                                <p class="sbp-info">Tool Brush Industries is een bedrijf gespecialiseerd in het ontwerpen van handige reinigingsproducten voor werkgereedschap. Met onze <b>MultiBrush</b> trachten wij de consument een manier te bieden om zijn kabel, tuinslang e.d. op te rollen zonder dat deze of de handen van de gebruikers vuil worden.
+                                <p class="sbp-info">ToolBrush Industries is gespecialiseerd in het ontwerpen van reinigingsproducten voor werkgereedschap. Met onze <b>MultiBrush</b> trachten wij de consument een manier te bieden om zijn kabel, tuinslang e.d. op te rollen zonder dat deze of de handen van de gebruikers vuil worden.
 </p>
                             </div>
      
@@ -465,10 +466,10 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
             $(window).load(function(){
                     var totalwidth=$(window).width();
                     
-                    var li_amount= Math.floor(totalwidth/293);
-                    $(".container").css("width",(((li_amount)*293+ "px")));
+                    var li_amount= Math.floor(totalwidth/243);
+                    $(".container").css("width",(((li_amount)*243+ "px")));
                     
-                    var bodypadding = Math.floor((totalwidth - li_amount*293) / 2);
+                    var bodypadding = Math.floor((totalwidth - li_amount*243) / 2);
                     
                     $(".container").css("margin-left",bodypadding + "px");
             
@@ -476,10 +477,10 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
                 $(window).resize(function(){
                     var totalwidth=$(window).width();
                     
-                    var li_amount= Math.floor(totalwidth/293);
-                    $(".container").css("width",(((li_amount)*293+ "px")));
+                    var li_amount= Math.floor(totalwidth/243);
+                    $(".container").css("width",(((li_amount)*243+ "px")));
                     
-                    var bodypadding = Math.floor((totalwidth - li_amount*293 - 20) / 2);
+                    var bodypadding = Math.floor((totalwidth - li_amount*243 - 20) / 2);
                     
                     $(".container").css("margin-left",bodypadding + "px");
                     
@@ -493,15 +494,15 @@ Dit deden ze in het kader van het vak Small Business Project, een initiatief van
             var image= $(this).find('.image-aligner'),
                 caption = $(this).find('.caption');
             
-            caption.width("280px");
-            caption.height("280px");
+            caption.width("230px");
+            caption.height("230px");
             caption.fadeIn();
         }).mouseleave(function(){
              var image= $(this).find('.image-aligner'),
                 caption = $(this).find('.caption');
             
-            caption.width("280px");
-            caption.height("280px");
+            caption.width("230px");
+            caption.height("230px");
             caption.fadeOut();
         });
         </script>
